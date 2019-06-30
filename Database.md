@@ -38,7 +38,7 @@
     * pip3 install mysql-connector-python
 
 
-```
+```py
 #!/usr/bin/python                                                   
 import mysql.connector as mysql                                                                                                                      
 
@@ -50,17 +50,19 @@ u='<username>'<br>
 p='<password>'<br>                             
 db='<database_name>'<br>
 h='<url>'                                                                           
-#### now connecting 
+# now connecting 
 conn=mysql.connect(user=u,password=p,database=db,host=h)
 
-#### now generating a sql language cursor                       
+# now generating a sql language cursor                       
 cur=conn.cursor()
 
-#### now we can write sql query                                 
+# now we can write sql query                                 
 cur.execute("show tables;")                                                                                      
-#### now printing result                                        
+
+# now printing result                                        
 print(cur.fetchall())                                                                            
-#### closing connection
+
+# closing connection
 conn.close()
 ```
 ## Database Migration
