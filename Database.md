@@ -1,4 +1,4 @@
-# <b>Polpular Databases</b>
+# Polpular Databases
     > Mysql
     > MariaDB
     > Db2
@@ -7,7 +7,7 @@
     > PostgreSQL
     > Microsoft SQL server
     > Amazon Aurora
-# <b>DBA Role</b>
+# DBA Role
     > Server
     > Security
     > Performance
